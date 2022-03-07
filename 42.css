@@ -1,0 +1,15 @@
+body{
+    margin:0px; 
+    padding: 0px;
+    font-size: 13px; 
+    font-family: Arial; 
+    line-height: 1.5;
+    background-color: black;
+    background: url(42.gif) no-repeat center fixed;
+    background-size: 1920px;
+}
+
+h1
+{
+    color: red;
+}
