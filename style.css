@@ -1,0 +1,164 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    background-color: black;
+    background-image: url("etoiles.png");
+    background-attachment:fixed;
+    background-position:center center;
+    background-size: 1900px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: rgb(233, 16, 16);
+}
+
+#block-page
+{
+    width: 1300px;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 3em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #dd1010;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #dd1417;
+    border-bottom: 3px solid #d40e11;
+}
+
+#menu-deroulant
+{
+    margin-top: 15px;
+    height: 700px;
+    border-radius: 5px;
+    background: url(BLAIR.png) no-repeat;
+    background-position: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: black;
+    text-align: center;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(216, 19, 19);
+    font-size:medium;
+}
+
+table
+{
+    flex: 1.2;
+    position: relative;
+    background-color: black;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(216, 19, 19);
+    font-size:medium;
+    top: 10px;
+    left: 300px;
+    border-collapse: collapse;
+}
+
+td
+{
+    border: 1px solid rgb(230, 11, 11);
+    font-size: 40px;
+    text-align: center;
+}
+
+th
+{
+    font-size: 40px;
+}
+.left p
+{
+    text-align: right;
+    font-size: 22px;
+}
+
+.START 
+{
+    float:left;
+    background-position: center;
+}
+
+#cool
+{
+    display: flex;
+    text-align: center;
+}
+
+#fin
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
