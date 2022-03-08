@@ -274,3 +274,12 @@ h1 a
 .phrase a{
     color: blue;
 }
+
+.form-control
+{
+    border: groove 5px red;
+    padding: 4px;
+    border-radius: 0 5px 5px 5px;
+    background-color : white;
+    color: black;
+}
