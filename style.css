@@ -10,6 +10,18 @@ body
     color: rgb(233, 16, 16);
 }
 
+h1 a
+{
+    font-size: 30px;
+    color:rgb(216, 19, 19);
+}
+
+.rouge
+{
+    font-size: 30px;
+    color:rgb(216, 19, 19);
+}
+
 #block-page
 {
     width: 1300px;
@@ -27,8 +39,9 @@ body
     font-family: 'Fuzzy Bubbles', cursive;
 }
 
-section h1, footer h1, nav a
+section h1 a, footer h1, nav a
 {
+    color:#dd1010;
     font-family: Dayrom, serif;
     font-weight: normal;
     text-transform: uppercase;
@@ -102,10 +115,9 @@ table
     background-color: black;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
-    padding: 10px;
     color: rgb(216, 19, 19);
     font-size:medium;
-    top: 10px;
+    margin-top: 20px;
     left: 300px;
     border-collapse: collapse;
 }
@@ -201,12 +213,6 @@ th
 {
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-h1 a
-{
-    font-size: 30px;
-    color: rgb(0, 4, 248);
 }
 
 #texte2

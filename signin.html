@@ -5,22 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0c0a8b6344.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <title>Document</title>
 </head>
 <body>
     <header>
         <div id="titre principal">
-            <img src="logo.png" alt="Logo ENIGMA" width="100px" height="100px" />
+            <img src="logo.png" alt="Logo ENIGMA" width="100px" height="100px"/>
         </div>
             <nav>
                 <ul>
                     <li class="dark"> <a href="index.html">Accueil</a></li>
                     <li class="white"><a href="modes.html">modes</a></li>
-                    <li class="dark"> <a href="Profil.html">profil</a></li>
                     <li class="white"> <a href="Commandes.html">commandes</a></li>
-                    <li class="dark"> <a href="Aides.html">aides</a></li>
-                    <li class="dark"> <a href="Langues.html">langues</a></li>
                     <li class="white"> <a href="télécharger.html">télécharger</a></li>
                     <li class="dark"> <a href="login.html">Se connecter</a></li>
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -32,49 +29,33 @@
     </header>
     <div id="Formulaire">
         <h1>Formulaire</h1>
-        <form action="needs-validation" novalidate>
+        <form method = "post">
             <div class="row">
-                <label for="firstname">Nom</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value required>
+                <input type="text" class="form-control" name = "Nom" id="Nom" placeholder="Nom" required><br/>
             </div>
             <div class="separate">
-                <label for="lastname">Prénom</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value required>
+                <input type="text" class="form-control" name = "Prenom" id="Prenom" placeholder="Prénom" required><br/>
             </div>
             <div class="separate">
-                <label for="firstname">Nom d'utilisateur</label>
                 <div class="input-group has-validation">
-                    <span class="input-group-text">@</span>
-                    <input type="text" class="form-control" id="username" placeholder="Username" required="">
-                </div>
+                    <input type="text" class="form-control" name = "username" id="username" placeholder="Pseudo" required><br/>
             </div>
             <div class="separate">
-                <label for="email" class="form-label">Addresse mail<span class="text-muted"></span></label>
-                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                <input type="text" class="form-control" name = "email" id="email" placeholder="you@example.com" required><br/>
             </div>
             <div class="separate">
-              <label for="address" class="form-label">Addresse</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
-              <div class="invalid-feedback">
+            <input type="password" class="form-control" name = "password" id="password" placeholder="Mot de passe" required><br/>
+            </div>
             </div>
             <div class="separate">
-                <label for="country" class="form-label">Pays</label>
-                <select class="form-select" id="country" required="">
-                  <option value="">Choose...</option>
-                  <option>United States</option>
-                </select>
+            <input type="password" class="form-control" name = "cpassword" id="cpassword" placeholder="Confirmez votre mot de passe" required><br/>
             </div>
-            <div class="separate_plus">
-                <label for="state" class="form-label">State</label>
-                <select class="form-select" id="state" required="">
-                  <option value="">Choose...</option>
-                  <option>California</option>
-                </select>
+            <div class="separate">
+                <input type="submit" class="form-control" name = "formsend" id="formsend" placeholder="Soumettre">
             </div>
         </form>
     </div>
     </div>
-
     <footer class="py-5">
         <div>
             <h1 id="contacter">

@@ -18,12 +18,8 @@
                     <ul>
                         <li class="dark"> <a href="index.html">Accueil</a></li>
                         <li class="white"><a href="modes.html">modes</a></li>
-                        <li class="dark"> <a href="Profil.html">profil</a></li>
                         <li class="white"> <a href="Commandes.html">commandes</a></li>
-                        <li class="dark"> <a href="Aides.html">aides</a></li>
-                        <li class="dark"> <a href="Langues.html">langues</a></li>
                         <li class="white"> <a href="télécharger.html">télécharger</a></li>
-                        <li class="dark"> <a href="login.html">Se connecter</a></li>
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <form>
                             <input class="form-control" type="text" placeholder="Rechercher" aria-label="Rechercher">
@@ -35,25 +31,21 @@
         <section>   
             <body class="text">
                 <main class="form-signin">
-                    <form>
+                <form method = "post">
                         <h1 class="h3">Connectez-vous</h1>
                         <div class="form-floating">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Adresse email</label>
+                            <input type="email" class="form-control" name ="lemail" id="lemail" placeholder="name@example.com" required><br/>
                         </div>
-
                         <div class="form-floating">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="password">
-                            <label for="floatingPassword">Mot de passe</label>
+                            <input type="password" class="form-control" name ="lpassword" id="lpassword" placeholder="password" required><br/>
                         </div class="checkbox">
-                            <label>
-                                <input type="checkbox" value="se souvenir de moi">
-                                " Se souvenir de moi "
-                            </label>
-                        <div>
-                            <button class="button" type="submit">Se connecter</button>
-                            <nav><a href="nouv_compte.html"><h1>Si vous n'avez pas de compte</h1></a></nav>
+                        <div class="separate">
+                            <input type="submit" class="form-control" name = "formlogin" id="formlogin" value="se connecter">
+                        </div>
+                        <div id="rouge">
+                            <a href="signin.php"><h1>Si vous n'avez pas de compte</h1></a>
                             <p class="mt">© 2017-2022</p>
+                        </div>
                     </form>
                 </main>
         </section>
